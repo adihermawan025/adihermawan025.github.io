@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/js/main.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+    <title>ageapp</title>
+</head>
+<body>
+
+    <!-- object to center -->
+    <main class="containerCenter">
+        
+        <!--form input user  -->
+        <form class="formInput" onsubmit="handleSubmit(event)">
+            <label for="username">Nama</label>
+            <input type="text" id="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">No wa</label>
+            <input type="phone" id="phone" required>
+
+            <label for="address">Alamat</label>
+            <input type="address" id="address" required>
+
+            <label for="birthday">Tanggal Lahir</label>
+            <input type="date" id="birthday" required>
+        
+            <button class="submit">Submit</button>
+        </form>
+        <!--end form input user  -->
+
+        <!-- background -->
+        <div class="background">
+            <div class="backgroundLeft"></div>
+                <h1 class="brand">AGEAPP</h1>
+                <p class="content">
+                    "Lengkapi Data Berikut dan Menangkan Hadiahnya !"
+                </p>
+
+            <div class="backgroundRight"></div>
+        </div>
+        <!-- end background -->
+
+    </main>
+    
+    <script src="./src/js/main.js">
+
+    </script>
+        
+</body>
+</html>
